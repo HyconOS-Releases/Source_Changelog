@@ -1,5 +1,159 @@
 # Hycon OS Source Changelog.
 
+## v3.0 | AURORA (18-05-2021)
+
+CHANGELOG:-
+- May Security bulletin resolution have been merged.
+- allowed to set back swipe deadzone in gestures.
+- Added screeenshot quality setting.
+- Updated Hycon OS Logo in About Phone section.
+- Added sound tile into Quick Settings.
+- Added Google Sound Search Tile In Quick Settings.
+- Added Mono/stereo audio tile (headphone in one ear).
+- Added Heart icon shape of QS tiles.
+- Allowed scheduling always on display.
+- Added support for mixed time and sun time modes.
+- Added Account for disabled  doze.
+- Added Show and edit Ambient Icons on Lockscreen.
+- Added option to enable AOD on charging only.
+- Added Lockscreen & ambient Pulse.
+- Added Navbar Pulse.
+- Added Ambient Notification bars.
+- Added Edge Lighting feature.
+- Added duration and count for ambient notification pulse.
+- Added colored Statusbar Notification Icons Feature.
+- Made colored Statusbar Notification Icons optional.
+- Added colored Notification  Headers Feature.
+- Made colored Notification  Headers Feature optional.
+- Added Option to Change duration and repeat counts of ambient edge.
+- Added Support for Double tap to trigger doze.
+- Enabled payphone call blocking option.
+- Package installer will show current and new version on app installation.
+- Toasts will Show app icon on system text as well.
+- Added Octavi's lockscreen clock.
+- Allowed media art with enabled facelock lockscreen to bypass.
+- Allowed selected camera apps to skip unconfigure.
+- Defined blur radius in. device-independent pixels.
+- Bump background blur radius to 155px.
+- Removed background tint from emergency tile.
+- Imported TensorFlow Lite model.
+- Fixed Notch Hide Overlays.
+- Redesigned Media Player View.
+- Added option to disable refresh rate lowering in battery saver.
+- updated positioning of analog clock on lockscreen.
+- Removed side padding from the dialog Of packageInstaller.
+- Improved notification/headsup group header layouts.
+- Added New Wallpapers To HyconWalls.
+
+## v2.5 | HASHIRA (16-04-2021)
+
+CHANGELOG:-
+
+- Added option to set QS panel columns and rows.
+- Introduced automated DC Dimming.
+- Added FOD icon picker in HyconHUB.
+- Added HyconOS fod icon in FOD picker.
+- Allowed additional padding on left side of heads up notifications. 
+- Added Shapeshift lockscreen clock.
+- Added Lock icons improvements for face unlock.
+- Disabled camera shutter sound in all countries.
+- Added Bluetooth and wifi timeout feature.
+- Disabled full screen keyboard.
+- Improved HyconHub Layout.
+- Added Demon Slayer ringtone and notification sound.
+- Changed Hycon logo in About phone and 
+- Added Rengoku Kyojuro's logo.
+- changed default wallpaper.
+- Added Hycon Wallpapers app .
+- Added option for statusbar brightness  control.
+- imported new gboard overlay.
+- Fixed Volume panel not following rounded corners partially.
+- Fixed AOD flickers on some devices.
+- Fixed bug on high contrast text
+- Fixed black screen after doze.
+- Volume panel plugins can be on left side now :)
+- more under the hood improvements to make rom smooth.
+
+## v2.0 | Blizzard (28-03-2021)
+
+Changelog :-
+
+# Add-ons And Updates :
+- Merged March security patch.
+- Implement Gvisual mod.
+- Add Fluid lockscreen clock.
+- Add Tux lockscreen clock
+- Add 404 IDE lockscreen clock.
+- Added systemwide Applock With face unlock support.
+- Added new face lock implementation.
+- Added Oneplus file manager.
+- Added option to hide gesture navbar.
+- allow customizing gesture navbar.
+- Added alert slider support.
+- Alert slider notifications for supported devices.
+- Added more apps to pixelprop utils .
+- Removed divider between QS tiles and media player.
+- add/remove QS tiles with one click.
+- Added Dual Channel into Bluetooth Audio. Channel Mode developer options.
+- Set all devices model to Pixel 3 XL for Google.
+- Added Russian Language translation into HyconHub.
+- Updated HyconHub logo in settings dashboard.
+- Added support for battery Moto Mods.
+- Updated OOS Volte & Vowifi icons.
+- implemented OnePlus proprietary vibrator format.
+- Improved Fod stuff.
+- Disabled blur wakeup animation.
+- Implemented phone ringtone setting for Multi SIM device.
+- Disabled rotation on lockscreen.
+- Added Vooc , Warp & Dash Charging Support.
+- Allowed to limit the max framerate of built-in screen recorder.
+- Implemented Hycon Os Updater. You guys can enjoy OTA support now .
+
+# Fixed bugs & killed demons :
+- Fixed Lockscreen Carrier Text Padding
+- Fixed "Clear All" recent app screen loop bug
+- Fixed Lockscreen Carrier Text Padding
+- Fixed inactive state Wifi Icon in Kai Icon Pack.
+- Fixed background colouring for settings themed icons.
+
+## v1.5 | Zephyrus (15-02-2021)
+Changelog :- 
+# Additions & Implementations
+- Revamped settings dashboard icons for all categories.
+- Added lottie animations.
+- Moved theming stuff to Hub.
+- Added Fastcharge preference to Battery settings.
+- Settings: QR Scanner pass proper frame Width and Height .
+- Unlock mobile network settings when airplane mode is on.
+- Tint data usage bar with activated control color.
+- Remove roaming warning, app uninstall, disable confirmation dialogs.
+- Added drawable for private DNS.
+- Avoided enforcing weird backgrounds in Settings.
+- Better spaced searchbar in dashboard.
+- Added avatar icon in SearchBar.
+- Redesigned searchbar header.
+- Added Initial bootleg gradient color.
+- Added FPS and CPU info overlay and tile.
+- Added long screenshot support.
+- Add delete action chip for screenshot.
+- Introduce QS tile style picker .
+- Limit resolution to 4k for 32 bit processes.
+- Implement POSP Volume Plugin Manager.
+- Added Disco Dingo tiles mode .
+- Added QS header With custom header image offset.
+- Added option to Allow limiting maxc framerate of built in screen recorder.
+
+# Killed Bugs and Fixed demons
+- Fixed Screen drag for swipe to screenshot
+- Updated divider color in dark theme.
+- Fixed inconsistent USB preference screen title.
+- Fixed stray divider in connected devices screen.
+- Fixed default brightness 0 display level .
+- Fixed FC in settings brightness.
+- Fixed invalid private DNS help text if URI is missing.
+- Fixed Hycon Hub Logo in Settings Dashboard.
+
+
 ## v1.0 | Aureus (01-02-2021)
 
 - Added support for per app network isolation.
@@ -47,110 +201,3 @@
 - Added Custom Clock faces.
 - Added AOD and ambient display tiles.
 - Added Material Toast notifications.
-
-## v1.5 | Zephyrus (15-02-2021)
-Changelog :- 
-# Additions & Implementations
-- Revamped settings dashboard icons for all categories.
-- Added lottie animations.
-- Moved theming stuff to Hub.
-- Added Fastcharge preference to Battery settings.
-- Settings: QR Scanner pass proper frame Width and Height .
-- Unlock mobile network settings when airplane mode is on.
-- Tint data usage bar with activated control color.
-- Remove roaming warning, app uninstall, disable confirmation dialogs.
-- Added drawable for private DNS.
-- Avoided enforcing weird backgrounds in Settings.
-- Better spaced searchbar in dashboard.
-- Added avatar icon in SearchBar.
-- Redesigned searchbar header.
-- Added Initial bootleg gradient color.
-- Added FPS and CPU info overlay and tile.
-- Added long screenshot support.
-- Add delete action chip for screenshot.
-- Introduce QS tile style picker .
-- Limit resolution to 4k for 32 bit processes.
-- Implement POSP Volume Plugin Manager.
-- Added Disco Dingo tiles mode .
-- Added QS header With custom header image offset.
-- Added option to Allow limiting maxc framerate of built in screen recorder.
-
-# Killed Bugs and Fixed demons
-- Fixed Screen drag for swipe to screenshot
-- Updated divider color in dark theme.
-- Fixed inconsistent USB preference screen title.
-- Fixed stray divider in connected devices screen.
-- Fixed default brightness 0 display level .
-- Fixed FC in settings brightness.
-- Fixed invalid private DNS help text if URI is missing.
-- Fixed Hycon Hub Logo in Settings Dashboard.
-
-## v2.0 | Blizzard (28-03-2021)
-Changelog :-
-
-# Add-ons And Updates :
-- Merged March security patch.
-- Implement Gvisual mod.
-- Add Fluid lockscreen clock.
-- Add Tux lockscreen clock
-- Add 404 IDE lockscreen clock.
-- Added systemwide Applock With face unlock support.
-- Added new face lock implementation.
-- Added Oneplus file manager.
-- Added option to hide gesture navbar.
-- allow customizing gesture navbar.
-- Added alert slider support.
-- Alert slider notifications for supported devices.
-- Added more apps to pixelprop utils .
-- Removed divider between QS tiles and media player.
-- add/remove QS tiles with one click.
-- Added Dual Channel into Bluetooth Audio. Channel Mode developer options.
-- Set all devices model to Pixel 3 XL for Google.
-- Added Russian Language translation into HyconHub.
-- Updated HyconHub logo in settings dashboard.
-- Added support for battery Moto Mods.
-- Updated OOS Volte & Vowifi icons.
-- implemented OnePlus proprietary vibrator format.
-- Improved Fod stuff.
-- Disabled blur wakeup animation.
-- Implemented phone ringtone setting for Multi SIM device.
-- Disabled rotation on lockscreen.
-- Added Vooc , Warp & Dash Charging Support.
-- Allowed to limit the max framerate of built-in screen recorder.
-- Implemented Hycon Os Updater. You guys can enjoy OTA support now .
-
-# Fixed bugs & killed demons :
-- Fixed Lockscreen Carrier Text Padding
-- Fixed "Clear All" recent app screen loop bug
-- Fixed Lockscreen Carrier Text Padding
-- Fixed inactive state Wifi Icon in Kai Icon Pack.
-- Fixed background colouring for settings themed icons.
-
-## v2.5 | HASHIRA (16-04-2021)
-
-CHANGELOG:-
-
-- Added option to set QS panel columns and rows.
-- Introduced automated DC Dimming.
-- Added FOD icon picker in HyconHUB.
-- Added HyconOS fod icon in FOD picker.
-- Allowed additional padding on left side of heads up notifications. 
-- Added Shapeshift lockscreen clock.
-- Added Lock icons improvements for face unlock.
-- Disabled camera shutter sound in all countries.
-- Added Bluetooth and wifi timeout feature.
-- Disabled full screen keyboard.
-- Improved HyconHub Layout.
-- Added Demon Slayer ringtone and notification sound.
-- Changed Hycon logo in About phone and 
-- Added Rengoku Kyojuro's logo.
-- changed default wallpaper.
-- Added Hycon Wallpapers app .
-- Added option for statusbar brightness  control.
-- imported new gboard overlay.
-- Fixed Volume panel not following rounded corners partially.
-- Fixed AOD flickers on some devices.
-- Fixed bug on high contrast text
-- Fixed black screen after doze.
-- Volume panel plugins can be on left side now :)
-- more under the hood improvements to make rom smooth.
