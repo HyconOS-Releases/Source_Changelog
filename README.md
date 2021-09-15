@@ -1,5 +1,12 @@
 # Hycon OS Source Changelog.
 
+## V4.5.1 | ETERNAL (15-09-2021)
+
+• Merged SEPTEMBER AOSP Security Patch.
+
+• Update PixelPropsUtil to SEPTEMBER FP.
+
+• FIXED SAFTYNET ISSUES.
 
 ## V4.5 | ELEGANT (15-08-2021)
 
